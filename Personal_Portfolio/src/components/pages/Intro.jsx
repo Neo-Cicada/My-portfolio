@@ -9,9 +9,9 @@ export default function () {
             <div className='flex justify-center  md:w-1/2 '>
                 <img src={LaptopOppa} alt="Oppa with laptop" className='h-[100%]' />
             </div>
-            <div className=' px-4 my-8 md:m-0 flex flex-col items-start md:w-1/2 lg:justify-end md:justify-center md:gap-14'>
-                <p>Hello I'm Lord Neo Barnachea.</p>
-                <p>Fullstack Developer</p>
+            <div className=' px-4 my-8 md:m-0 flex flex-col items-start md:w-1/2 lg:justify-end md:justify-center md:gap-6'>
+                <p className='text-display leading-display tracking-display'>Hello I'm <span className='font-extrabold'>Lord Neo Barnachea.</span></p>
+                <p className='text-display leading-display tracking-display font-extrabold'> Fullstack <span className='text-outline'>Developer</span></p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque, nobis voluptate sed quia, cum suscipit accusamus ratione eligendi corporis aperiam enim illum qui cupiditate vel dignissimos quisquam, obcaecati sint!
                     xpedita, reiciendis quidem iusto solutatur et autem? Suscipit quisquam ipsam impedit nemo!
                 </p>
