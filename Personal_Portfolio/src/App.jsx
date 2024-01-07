@@ -3,7 +3,10 @@ import oppa from './assets/oppa.svg'
 
 import Header from './components/common/Header'
 import Intro from './components/pages/Intro'
-
+import Skills from './components/pages/Skils'
+import Experience from './components/pages/Experience'
+import AboutMe from './components/pages/AboutMe'
+import Project from './components/pages/Project'
 function App() {
 
 
@@ -12,6 +15,14 @@ function App() {
       <Header />
         
       <Intro />
+
+      <Skills/>
+
+      <Experience/>
+
+      <AboutMe/>
+
+      <Project/>
     </>
   )
 }
