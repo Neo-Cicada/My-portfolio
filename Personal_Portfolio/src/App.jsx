@@ -7,6 +7,8 @@ import Skills from './components/pages/Skils'
 import Experience from './components/pages/Experience'
 import AboutMe from './components/pages/AboutMe'
 import Project from './components/pages/Project'
+import Email from './components/pages/Email'
+import Footer from './components/common/Footer'
 function App() {
 
 
@@ -23,6 +25,10 @@ function App() {
       <AboutMe/>
 
       <Project/>
+    
+      <Email/>
+
+      <Footer/>
     </>
   )
 }
