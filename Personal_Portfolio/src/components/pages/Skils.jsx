@@ -7,7 +7,7 @@ import git from '../../assets/icons/git.svg'
 const Skills = () => {
     return (
 
-        <div className="py-5 lg:h-[100vh] max-w-screen-2xl mx-auto min-w-[320px] lg:max-h-[800px] min-h-[400px]">
+        <div className="py-5  max-w-screen-2xl mx-auto min-w-[320px] lg:max-h-[900px] min-h-[400px]">
             <p className="text-dispay-subhead text-center py-4">
                 My <span className="font-extrabold">Skills</span>
             </p>
