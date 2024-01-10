@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ResumeBtn from './ResumeBtn'
 import BurgerIcon from '../../assets/icons/burger.svg'
+import { Link } from 'react-scroll';
 export default function Header() {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
@@ -21,10 +22,18 @@ export default function Header() {
                     <>
                         <nav className='sm:w-[60%] md:w-[50%] lg:w-[40%]'>
                             <ul className='flex justify-between '>
-                                <li className='font-bold text-sm sm:text-sm md:text-xl cursor-pointer'>About Me</li>
-                                <li className='font-bold text-sm sm:text-sm md:text-xl cursor-pointer'>Skills</li>
-                                <li className='font-bold text-sm sm:text-sm md:text-xl cursor-pointer'>Project</li>
-                                <li className='font-bold text-sm sm:text-sm md:text-xl cursor-pointer'>Contact Me</li>
+                                <li className='font-bold text-sm sm:text-sm md:text-xl cursor-pointer'>
+                                    <Link to="aboutMe" smooth={true} duration={'500'}>About Me</Link>
+                                </li>
+                                <li className='font-bold text-sm sm:text-sm md:text-xl cursor-pointer'>
+                                    <Link to="skills" smooth={true} duration={'500'}>Skills</Link>
+                                </li>
+                                <li className='font-bold text-sm sm:text-sm md:text-xl cursor-pointer'>
+                                    <Link to="project" smooth={true} duration={'500'}>Project</Link>
+                                </li>
+                                <li className='font-bold text-sm sm:text-sm md:text-xl cursor-pointer'>
+                                    <Link to="contactMe" smooth={true} duration={'500'}>Contact Me</Link>
+                                </li>
                             </ul>
                         </nav>
 
