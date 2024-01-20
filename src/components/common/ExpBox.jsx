@@ -2,7 +2,7 @@ import React from 'react'
 import BoomTechIcon from '../../assets/boomtech-icon.jpeg'
 export default function () {
     return (
-        <div className='border border-white w-[93%] rounded-lg flex flex-col justify-between h-40 px-9 py-9'>
+        <div className='border border-white w-[93%] rounded-lg flex flex-col justify-between min-h-40 px-9 py-9'>
 
             <div className='flex items-center justify-between'>
                 <div className='flex items-center justify-center'>
