@@ -10,16 +10,26 @@ export default function () {
             <div className='flex justify-center md:w-1/2 '>
                 <img src={LaptopOppa} alt="Oppa with laptop" className='h-[100%]' />
             </div>
-            <div className='px-4 my-8 md:m-0 flex flex-col items-start md:w-1/2 lg:justify-end md:justify-center md:gap-6'>
+            <div className='flex flex-col items-start px-4 my-8 md:m-0 md:w-1/2 lg:justify-end md:justify-center md:gap-6'>
                 <p className='text-display-medium leading-display-medium tracking-display-medium lg:text-display md:leading-display md:tracking-display'>Hello I'm <span className='font-extrabold'>Lord Neo Barnachea.</span></p>
-                <p className='text-display-medium lg:text-display leading-display tracking-display font-extrabold'> Fullstack <span className='text-outline'>Developer</span></p>
-                <p className='text-paragraph-2 leading-paragraph-2 tracking-paragraph-2 lg:text-paragraph-1 lg:leading-paragraph-1 lg:tracking-paragraph-1'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum deleniti, numquam dolor quos necessitatibus est illum! Laudantium nihil eaque ipsum, quo corrupti voluptatum eos deserunt expedita provident perferendis sequi officia.
+                <p className='font-extrabold text-display-medium lg:text-display leading-display tracking-display'> Fullstack <span className='text-outline'>Developer</span></p>
+                <p className='text-paragraph-2 leading-paragraph-2 tracking-paragraph-2 lg:text-paragraph-1 lg:leading-paragraph-1 lg:tracking-paragraph-1'>
+                    A computer science graduating who loves building web applications.
+                    In the language of code, every line tells a story. As a web developer, I'm here to craft narratives that not only function seamlessly but resonate with purpose. Take a look at my work and skills, and let's talk about turning your ideas into reality.
                 </p>
                 <div>
                     <ul className='flex gap-5'>
-                        <li className='cursor-pointer'> <img src={Linkedin} alt="linkedin" /></li>
+                        <li className='cursor-pointer'>
+                            <a href="https://www.linkedin.com/in/lord-neo-barnachea/" target='_'>
+                                <img src={Linkedin} alt="linkedin" />
+                            </a>
+                        </li>
                         <li className='cursor-pointer'> <img src={Discord} alt="discord" /> </li>
-                        <li className='cursor-pointer'> <img src={Facebook} alt="facebook" /> </li>
+                        <li className='cursor-pointer'>
+                            <a href="https://www.facebook.com/lordneo.barnachea.27/" target='_'>
+                                <img src={Facebook} alt="facebook" />
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>

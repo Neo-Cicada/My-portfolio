@@ -8,12 +8,12 @@ const AboutMe = () => {
                 <div className='md:w-[40%] flex justify-start items-center px-11'>
                     <img src={Oppa} alt="Oppa" />
                 </div>
-                <div className='md:w-1/2 flex flex-col justify-start px-4 gap-3'>
-                    <p className='text-display leading-display tracking-display py-4'>About <span className='font-bold'>Me</span></p>
-                    <p className='text-paragraph-2 leading-paragraph-1 tracking-paragraph-1 md:text-paragraph-1 text-zinc-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quis molestiae id repellendus? Asperiores quis delectus totam voluptatem cumque dicta, eligendi consequuntur reiciendis omnis doloribus recusandae perferendis debitis quaerat adipisci!</p>
+                <div className='flex flex-col justify-start gap-3 px-4 md:w-1/2'>
+                    <p className='py-4 text-display leading-display tracking-display'>About <span className='font-bold'>Me</span></p>
                     <p className='text-paragraph-2 leading-paragraph-1 tracking-paragraph-1 md:text-paragraph-1 text-zinc-500'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, facilis, ipsa quas quibusdam quasi architecto sequi nisi veniam et maxime cum ex consequatur sunt ratione blanditiis excepturi dolores, tempore repellendus.
-                        reiciendis vel! Sequi veniam consectetur voluptate doloremque molestiae dolor, facilis inventore?
+                        I am a man of unwavering focus, sheer will, and unyielding commitment. Driven by a relentless determination to achieve my goals, I approach every endeavor with a tenacity that sets me apart. Known for my hardworking nature, I tackle challenges head-on, consistently pushing boundaries to exceed expectations. Whether in professional pursuits or personal endeavors, my commitment to excellence and the discipline to stay focused on the task at hand define my approach to life.</p>
+                    <p className='text-paragraph-2 leading-paragraph-1 tracking-paragraph-1 md:text-paragraph-1 text-zinc-500'>
+                        In the pursuit of success, I embrace challenges as opportunities for growth, embodying a resilient spirit that fuels my journey towards continuous self-improvement and accomplishment.
                     </p>
                 </div>
             </div>
