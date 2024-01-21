@@ -7,7 +7,7 @@ export default function Email() {
         <div className='flex flex-col justify-start px-9 md:w-1/2 gap-y-9'>
           <input type="text" placeholder="Name" class=" md:w-[83%] h-[56px] border-2 border-black rounded-md py-2 px-3 focus:border hover:boder" />
           <input type="text" placeholder="Email" class="md:w-[83%] h-[56px] border-2 border-black rounded-md py-2 px-3 focus:border hover:boder" />
-          <input type="text" placeholder="Your Website" class="md:w-[83%] h-[56px] border-2 border-black rounded-md py-2 px-3 focus:border hover:boder" />
+          <input type="text" placeholder="Subject" class="md:w-[83%] h-[56px] border-2 border-black rounded-md py-2 px-3 focus:border hover:boder" />
           <textarea placeholder='Message' className='min-h md:w-[83%] h-[140px] md:min-h-[140px] md:max-h-[140px] border-2 border-black rounded-md py-2 px-3 focus:border hover:boder' />
           <div className='flex justify-start'>
             <button className='bg-black w-[173px] text-white h-[56px] rounded font-extrabold leading-display tracking-display'>Get in touch</button>
