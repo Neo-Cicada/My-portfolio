@@ -14,7 +14,7 @@ export default function () {
                 <p className='text-display-medium leading-display-medium tracking-display-medium lg:text-display md:leading-display md:tracking-display'>Hello I'm <span className='font-extrabold'>Lord Neo Barnachea.</span></p>
                 <p className='font-extrabold text-display-medium lg:text-display leading-display tracking-display'> Fullstack <span className='text-outline'>Developer</span></p>
                 <p className='text-paragraph-2 leading-paragraph-2 tracking-paragraph-2 lg:text-paragraph-1 lg:leading-paragraph-1 lg:tracking-paragraph-1'>
-                    A computer science graduating who loves building web applications.
+                    A computer science graduate who loves building web applications.
                     In the language of code, every line tells a story. As a web developer, I'm here to craft narratives that not only function seamlessly but resonate with purpose. Take a look at my work and skills, and let's talk about turning your ideas into reality.
                 </p>
                 <div>

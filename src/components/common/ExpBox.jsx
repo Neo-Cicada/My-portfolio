@@ -9,16 +9,16 @@ export default function () {
                     <img src={BoomTechIcon} alt="boom tech icon" height='32px' width='32px' className='mr-4 rounded-full' />
                     <p className='text-white'> Web Developer Intern at Boom Technologies </p>
                 </div>
-                <p className='text-white'>Dec 2023 - Present</p></div>
+                <p className='text-white'>Dec 2023 - Mar 2024</p></div>
             <div>
                 <p className='text-zinc-300'>
-                    &emsp; - Currently interning as a frontend developer, actively engaged in the development and enhancement of web applications using React/NextJS.
+                    &emsp; - Interned as a frontend developer, actively engaged in the development and enhancement of web applications using React/NextJS.
                 </p>
                 <p className='text-zinc-300'>
-                    &emsp;  - Participating in the full software development lifecycle, from concept to deployment.
+                    &emsp;  - Participated in the full software development lifecycle, from concept to deployment.
                 </p>
                 <p className='text-zinc-300'>
-                    &emsp; - Collaborating on UI/UX initiatives, including wireframing and prototyping.
+                    &emsp; - Collaborated on UI/UX initiatives, including wireframing and prototyping.
                 </p>
             </div>
         </div>
